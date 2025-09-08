@@ -20,13 +20,16 @@ cd almacen_m
 
 2. Crear y activar entorno virtual (Windows, cmd):
 python -m venv venv
-venv\Scripts\activate
 
-3. Instalar dependencias
+venv\
+Scripts\
+activate
+
+4. Instalar dependencias
 Dentro del entorno virtual instala los paquetes necesarios:
 pip install -r requirements.txt
 
-4. Configurar la conexión a la base de datos
+5. Configurar la conexión a la base de datos
 Edita el archivo config.py y coloca los datos de tu servidor SQL Server:
 
 Opción 1: Con autenticación de Windows
