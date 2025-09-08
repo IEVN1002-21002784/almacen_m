@@ -49,7 +49,7 @@ CREATE TABLE movimientos (
 );
 GO
 
--- Índices opcionales para mejorar consultas
+
 CREATE INDEX IX_movimientos_fecha ON movimientos(fecha_hora DESC);
 CREATE INDEX IX_movimientos_tipo ON movimientos(tipo);
 GO
